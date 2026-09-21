@@ -1,0 +1,4 @@
+{
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gc.exe",
+    "C_Cpp.default.compilerArgs": ["-I./src/icvm", "main.c", "icvm.c", "memory.c"]
+}

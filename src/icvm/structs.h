@@ -8,10 +8,10 @@ typedef struct {
 } icbc_header;
 
 typedef struct {
-    int size;
-    void* data;
     char* symbol;
-} MemoryObject;
+    void* info;
+    void* data;
+} MemoryObjectPointer;
 
 typedef struct {
     builtin_vars VariableType;
